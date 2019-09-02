@@ -126,7 +126,8 @@ int Chapter_2_3::NumberMatchingGame()
 	{
 		printf("Guess the number I made.(Enter 999 to exit.)\n");
 		int nRandomNum = GetRandomize();
-		while (1)
+
+		do
 		{
 			printf("Input number : ");
 			scanf_s("%d", &nInput);
@@ -138,7 +139,6 @@ int Chapter_2_3::NumberMatchingGame()
 			if (nInput == nRandomNum)
 			{
 				printf("Correct. \n");
-				exit(EXIT_SUCCESS);
 			}
 			else if (nInput > nRandomNum)
 			{
@@ -149,9 +149,34 @@ int Chapter_2_3::NumberMatchingGame()
 				printf("Greater than the input number.\n");
 			}
 
-			//srand(time(NULL));
-			//nRandomNum = rand();		
-		}
+		} while (nRandomNum != nInput);
+
+
+		//while (1)
+		//{
+		//	printf("Input number : ");
+		//	scanf_s("%d", &nInput);
+
+		//	if (nInput == 999)
+		//	{
+		//		exit(EXIT_SUCCESS);
+		//	}
+		//	if (nInput == nRandomNum)
+		//	{
+		//		printf("Correct. \n");
+		//	}
+		//	else if (nInput > nRandomNum)
+		//	{
+		//		printf("Smaller than the input number.\n");
+		//	}
+		//	else
+		//	{
+		//		printf("Greater than the input number.\n");
+		//	}
+
+		//	//srand(time(NULL));
+		//	//nRandomNum = rand();		
+		//}
 	}
 	return 0;
 }

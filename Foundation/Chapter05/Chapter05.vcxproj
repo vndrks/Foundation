@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{1909E052-890B-448F-8D80-5A50FB3E2C4F}</ProjectGuid>
-    <RootNamespace>Chapter04</RootNamespace>
+    <ProjectGuid>{6427A147-7C34-487F-9A23-7450BE1E5AF4}</ProjectGuid>
+    <RootNamespace>Chapter05</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -29,7 +29,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -123,19 +123,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Chapter_4_1.cpp" />
-    <ClCompile Include="Chapter_4_2.cpp" />
-    <ClCompile Include="Chapter_4_3.cpp" />
-    <ClCompile Include="Chapter_4_4.cpp" />
-    <ClCompile Include="Chapter_4_5.cpp" />
+    <ClCompile Include="Chapter_5_1.cpp" />
+    <ClCompile Include="Chapter_5_2.cpp" />
+    <ClCompile Include="Chapter_5_3.cpp" />
+    <ClCompile Include="Chapter_5_4.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Chapter_4_1.h" />
-    <ClInclude Include="Chapter_4_2.h" />
-    <ClInclude Include="Chapter_4_3.h" />
-    <ClInclude Include="Chapter_4_4.h" />
-    <ClInclude Include="Chapter_4_5.h" />
+    <ClInclude Include="Chapter_5_1.h" />
+    <ClInclude Include="Chapter_5_2.h" />
+    <ClInclude Include="Chapter_5_3.h" />
+    <ClInclude Include="Chapter_5_4.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
