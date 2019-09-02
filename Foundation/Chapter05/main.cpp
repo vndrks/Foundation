@@ -39,6 +39,7 @@ int main(int argc, char argv[])
 	//chapter_5_4.gugu4();
 	//chapter_5_4.gugu5();
 	
-	chapter_5_4.AsciiTable();
+	//chapter_5_4.AsciiTable();
+	chapter_5_4.BaseBall();
 	return 0;
  }

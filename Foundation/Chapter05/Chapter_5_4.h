@@ -12,5 +12,6 @@ public:
 	int gugu6();		// Example : gugu6
 
 	int AsciiTable();		// Problem AsciiTable
+	int BaseBall();			// Problem BaseBall
 };
 
