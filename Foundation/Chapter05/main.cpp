@@ -3,7 +3,7 @@
 #include "Chapter_5_3.h"
 #include "Chapter_5_4.h"
 
-int main(int argc, char argv[])
+int main(int argc, char* argv[])
 {
 	Chapter_5_1 chapter_5_1;
 	Chapter_5_2 chapter_5_2;

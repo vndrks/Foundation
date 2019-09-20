@@ -5,7 +5,7 @@
 #include "Chapter_4_5.h"
 
 
-int main(int argc, char argv[])
+int main(int argc, char* argv[])
 {
 	Chapter_4_1 chapter_4_1;
 	Chapter_4_2 chapter_4_2;

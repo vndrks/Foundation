@@ -209,7 +209,7 @@ int Chapter_4_4::ExamSwitchScore()
 {
 	int nScore;
 	printf("Enter your score :");
-	scanf_s("%d", &nScore, sizeof(nScore));
+	scanf_s("%d", &nScore);
 
 	switch (nScore / 10)
 	{

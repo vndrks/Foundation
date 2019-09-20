@@ -6,7 +6,7 @@
 #include "Chapter_3_6.h"
 #include "Chapter_3_7.h"
 
-int main(int argc, char argv[])
+int main(int argc, char* argv[])
 {
 	Chapter_3_2 chapter_3_2;
 	Chapter_3_3 chapter_3_3;
