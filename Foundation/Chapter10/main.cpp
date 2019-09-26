@@ -35,8 +35,8 @@ int main(int argc, char* argv[])
 	//chapter10_4.DoublePointer();
 	//chapter10_4.FuncAlloc();
 	//chapter10_4.FuncAlloc2();
-	//chapter10_4.DynStrArray();
-	chapter10_4.VoidAlloc();
+	chapter10_4.DynStrArray();
+	//chapter10_4.VoidAlloc();
 	return 0;
 }
 
