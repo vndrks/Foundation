@@ -21,6 +21,11 @@ public:
 
 	int		my_strncpy(char* str1, int nSize, const char* src, int nCnt);
 	int		my_strncat(char* dest, int nSize, const char* str2, int nLen);
+
+	void	stradd(char* dest, char ch);
+	char*	strstr_1(const char* string, const char* strSrch);
+
+	char*	strdup1(const char* src);
 private:
 
 

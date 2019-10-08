@@ -59,8 +59,8 @@ int main(int argc, char* argv[])
 	//printf("Addr : 0x%lp\n", chapter12_3.my_strchr(srch, 'r'));
 
 	//// strstr
-	//char srch[32] = "strstr";
-	//printf("Addr : 0x%lp\n", chapter12_3.my_strstr(srch, "rs"));
+	//char srch[32] = "ABCDEFG";
+	//printf("Addr : 0x%lp\n", chapter12_3.my_strstr(srch, "CDE"));
 
 	// strcmp
 	//char chStr1[32] = "BDSA";
@@ -86,12 +86,40 @@ int main(int argc, char* argv[])
 	//chapter12_3.my_strncpy(chStr1, 6, chStr2, 2);
 	//printf("chStr1 : %s\n", chStr1);
 
-	char str1[32] = "Hel ";
-	char str2[32] = "World!!";
+	//char str1[32] = "Hel ";
+	//char str2[32] = "World!!";
 
-	//strncat_s(str1, sizeof(str1), str2, 2);
-	chapter12_3.my_strncat(str1, sizeof(str1), str2, 8);
-	printf("str1 : %s\n", str1);
+	////strncat_s(str1, sizeof(str1), str2, 2);
+	//chapter12_3.my_strncat(str1, sizeof(str1), str2, 8);
+	//printf("str1 : %s\n", str1);
+
+	/*
+	* stradd
+	*/
+	//char str1[32] = "";
+	//for (int i = 1; i <= 5; ++i)
+	//{
+	//	char chTmp[4];
+	//	_itoa_s(i, chTmp, 10);
+
+	//	memcpy(str1, "Test ", sizeof("Test "));
+
+	//	chapter12_3.stradd(str1, chTmp[0]);
+	//	printf("%s\n", str1);
+	//}
+
+
+	/*
+	* strstr
+	*/
+
+
+	const char* string = "ABCDEFG";
+	const char* srch1 = "B";
+	
+	printf("[%s] - [%s] addr : %p\n", string, srch1, strstr(string, srch1));
+	printf("=============================================\n");
+	printf("[%s] - [%s] addr : %p\n", string, srch1, chapter12_3.strstr_1(string, srch1));
 
 	return 0;
 }
